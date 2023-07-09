@@ -1,0 +1,124 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
+ul,li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #211010;
+    color: #c283cd;
+    font-size: 20px; 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu_item{
+    margin-left: 25px;
+}
+
+.menu_link{
+    color: #da00ff94;
+    font-size: 25px;
+    transition: color 0.3s ease;
+}
+
+.menu_link:hover{
+    color: azure;
+}
+
+.title{
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section_title{
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #da00ff94;
+}
+
+.hard-skills{
+    font-size: 26px;
+    text-align: left;
+    margin-left: 485px;
+}
+
+.skill{
+    margin-bottom: 10px;
+}
+.examples_text{
+    font-size: 20px;
+}
+
+.examples_pre{
+    display: flex;
+}
+
+.examples_code{
+    margin-left: 175px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.edu_lists{
+    font-size: 20px; 
+}
+
+.edu_item{
+    margin-bottom: 15px;
+}
+
+.section_text{
+    max-width: 600px;
+    margin-left: 315px;
+}
+
+.section_text--contacts{
+    font-size: 28px;
+}
+
+.contacts_item{
+    text-align: start;
+    margin-left: 385px;
+    margin-bottom: 15px;
+}
+
+.footer_links{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images_github{
+    width: 120px;
+}
+
+.footer_text{
+    font-size: 40px;
+    color: #000;
+}
+
+.images_school{
+    width: 160px;
+}
+
