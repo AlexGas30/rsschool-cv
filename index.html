@@ -2,10 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"> 
     <title>Huryn Alexsander</title>
 </head>
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="menu">
+                    <li class="menu_item">
+                        <a href="#welcome" class="menu_link">Home</a></li>
+                    <li class="menu_item">
+                        <a href="#skills" class="menu_link">Skills</a></li>
+                    <li class="menu_item">
+                        <a href="#examples" class="menu_link">Examples</a></li>
+                    <li class="menu_item">
+                        <a href="#education" class="menu_link">Education</a></li>
+                    <li class="menu_item">
+                        <a href="#about" class="menu_link">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="welcome" id="welcome">
+            <div class="container">
+                <h1 class="title"> Junior JavaScript developer </h1>
+                <img src="./images/ava.jpg" alt="avatar">
+            </div>
+        </section>
+        
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section_title">My skills</h2>
+                <ul class="hard-skills">
+                    <li class="skill">html </li>
+                    <li class="skill">css</li>
+                    <li class="skill">JavaScript (Basic)</li>
+                    <li class="skill">python(basic)</li>
+                </ul>
+            </div>
+        </section>
+
+                   
+
+        <section class="examples" id="examples">
+            <div class="container">
+                <h2 class="section_title">Example of code</h2>
+                <p class="examples_text">Factorial of number</p>
+                <pre class="examples_pre">
+                    <code class="examples_code">
+                        function factorial(n) {
+                            if (n &#10094; 0) return null;
+                            if (n === 0) return 1;
+                            return n * factorial(n-1);
+                           }
+                    </code>
+                </pre>
+            </div>
+        </section>
+
+        <section class="education" id="education">
+            <div class="container">
+                <h2 class="section_title">My education</h2>
+                <ul class="edu_lists">
+                    <li class="edu_item">2023 RS School: JS/Frontend. Stage 0</li>
+                    <li class="edu_item">University: BSTU</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <h2 class="section_title">About Me</h2>
+                <p class="section_text">I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.</p>
+                <p class="section_text--contacts">Contacts</p>
+                <ul class="contacts">
+                    <li class="contacts_item"> Email: hurynalexander@gmail.com</li>
+                    <li class="contacts_item"> GitHub: AlexGas30</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer_links">
+                <a href="https://github.com/AlexGas30" target="_blank">
+                    <img class="images_github" src="./images/img_github.png" alt="github"></a>
+                <p class="footer_text">2023 </p>
+                <a href="https://rs.school/" target="_blank">
+                    <img class="images_school" src="./images/rs_school_js.svg" alt="rs_school_js"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
